@@ -15,11 +15,12 @@
         text-align: center;
     }
 .Logo .top_Logo{
-    margin-top: -150px;
+   /* margin-top: -150px;
     width: 35px;
     height: 35px;
     margin-left: -100px;
-    margin-bottom: 125px;
+    margin-bottom: 125px;*/
+    display:none;
 }
 /*header*/
 .Image_header .style-logo-text{
