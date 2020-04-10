@@ -288,12 +288,13 @@ ul{
     float: right;
     width: 300px;
     padding-right: 400px;
+    margin-top: -55px;
 }
 .Thestage{
     padding: 70px 0;
-    background-color:#f1f1f1;
-    min-height: 852px
-    width:100%;
+    background-color: #f1f1f1;
+    width: 100%;
+    min-height: 721px;
 }
 .Thestage h2{
     margin-left: 0;
@@ -318,8 +319,8 @@ ul{
     height: 491px;
 }
 .spreadviurs{
-    float: left;
-    width: 600px;
+ float: left;
+    width: 85%;
     padding: 20px;
     margin-left: 82px;
 }
