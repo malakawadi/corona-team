@@ -293,6 +293,7 @@ ul{
     padding: 70px 0;
     background-color:#f1f1f1;
     min-height: 852px
+    width:100%;
 }
 .Thestage h2{
     margin-left: 0;
@@ -310,6 +311,7 @@ ul{
     /*margin-right: 94px;*/
     margin-top: 27px;
     margin-right: 29px;
+    display:none;
 }
 .imagestage .image{
     width: 491px;
