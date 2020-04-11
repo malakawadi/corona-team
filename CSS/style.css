@@ -201,13 +201,6 @@ figure{
     padding: 40px;
 }
 .Symptoms h2{
-   /* font-family: Arial;
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #7b7682;
-    margin-left: 50px;
-    letter-spacing: 1px;*/
-
     margin-left: 0;
     color: #c87aa3;
     font-family: Arial, Helvetica, sans-serif;
@@ -218,21 +211,13 @@ figure{
 }
 #main-info{
     min-height: 290px;
-    padding: 20px;
     margin-bottom: 35px;
 }
 
 .virusicon{   /* div 1*/     
-   /* width: 40%;
-    position: absolute;
-    top: 0px;
-    left: 150px;*/
-
-
-    width: 400px;
-    display: inline-block;
-    padding-left: 76px;
-    margin-top: -24px;
+    width: 50%;
+    float: left;
+    padding-left: 130px;
 }
 .p{
     text-align: justify;
@@ -248,49 +233,35 @@ figure{
     height: 260px;
 }
 .virus-info{  /* div 2*/   
-    /*float: right;
-    width: 40%;
-    position: absolute;
-    left: 678px;
-    top: 94px;*/
-
-
     float: right;
-    width: 300px;
-    margin-right: 100px;
+    width: 50%;
+    padding: 60px;
 }
 .virussymtoms{   /* div 3*/ 
-/*width: 650px;
-position: absolute;
-top: 60px;
-left: 100px;
-line-height: 2;
-font-family: Arial;
-color: #6d6d6d;*/
-
-
-width: 550px;
-display: inline-block;
-line-height: 2;
-font-family: Arial;
-font-weight: bold;
-color: #6d6d6d;
-margin-left: 70px
+    width: 50%;
+    float: left;
+    line-height: 2;
+    font-family: Arial;
+    font-weight: bold;
+    color: #6d6d6d;
+    padding-left: 90px;
 }
 ul{
     margin-left: 20px;
 }
 .cough {         /* div 4*/ 
+
     float: right;
-    width: 300px;
-    padding-right: 325px;
-    margin-top: -270px;
+    width: 50%;
+    padding-right: 400px;
+    padding-left: 250px;
+    margin-top: -251px;
 }
 .Thestage{
     padding: 70px 0;
-    background-color: #f1f1f1;
-    width: 100%;
-    min-height: 936px;
+    background-color:#f1f1f1;
+    min-height: 852px;
+    overflow: hidden;
 }
 .Thestage h2{
     margin-left: 0;
@@ -303,20 +274,19 @@ ul{
 }
 .imagestage{
     float: right;
-    width: 600px;
+    width: 38%;
     padding: 20px;
     /*margin-right: 94px;*/
     margin-top: 27px;
     margin-right: 29px;
-    display:none;
 }
 .imagestage .image{
-    width: 491px;
-    height: 491px;
+    width: 346px;
+    height: 517px;
 }
 .spreadviurs{
- float: left;
-    width: 85%;
+    float: left;
+    width: 50%;
     padding: 20px;
     margin-left: 82px;
 }
@@ -343,7 +313,7 @@ ul{
 /************************************Manar**************************************/
 /***********************************Malaka**************************************/
 .tipsection{
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
    
 } 
 .tipsection h3{
@@ -439,40 +409,4 @@ ul{
   color: #c87aa3;
 }
 /***********************************Malaka**************************************/
-@media (max-width:812px){
-    .cough {
-        float: right;
-        padding-right: 71px;
-        margin-top: -256px;
-    }
-    .lungs {
-        height: 282px;
-        margin-left: -13px;
-        margin-top: -19px;
-    }
-    .imagestage {
-        display: none;
-    }
-   .spreadviurs {
-    float: left;
-    padding: 20px;
-    margin-left: 82px;
-    width: 78%;
-   }
-   .tipsection {
-    overflow-x: none;
-}
-.tipsection h3 {
-    margin-top: 409px;
-}
-.tips-img img {
-    width: 50px;
-    height: 50px;
-}
-.footer .navbar-nav {
-    float: right;
-    display: flex;
-    margin-top: 15px;
-}
-}
 
